@@ -6,7 +6,6 @@
 #include <unistd.h>
 #include <sys/ipc.h>
 #include <time.h>
-
 #include "../src/dijkstra.h"
 
 static int PHILO_NUM = 5;
