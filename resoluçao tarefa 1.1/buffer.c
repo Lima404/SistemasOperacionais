@@ -1,12 +1,12 @@
-#include <pthread.h>
-#include <stdio.h>
 #include <stdlib.h>
-#include <sys/ipc.h>
+#include <stdio.h>
+#include <time.h>
+#include <pthread.h>
+#include "../src/dijkstra.h"
 #include <sys/sem.h>
 #include <sys/types.h>
-#include <time.h>
 #include <unistd.h>
-#include "../src/dijkstra.h"
+#include <sys/ipc.h>
 
 static int PRODUTORES_NUM = 5;
 static int TAMANHO_BUFFER = 5;
